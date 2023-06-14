@@ -1,6 +1,13 @@
 /* nejsme vcerejsi, pouzivame moderni box model */
-html { box-sizing: border-box; }
-*, :after, :before { box-sizing: inherit; }
+html {
+    box-sizing: border-box;
+}
+
+*,
+:after,
+:before {
+    box-sizing: inherit;
+}
 
 
 /*
@@ -16,4 +23,213 @@ font-weight: 700;
 
 /* -------------------------------------------------- */
 
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+    font-size: 15px;
+    line-height: 1.5;
+}
 
+.uvod {
+    background-color: #f0efef;
+    padding: 50px 50px 0px 50px;;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    max-width: 1140px;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 13px;
+    align-items: center;
+}
+
+.menu a {
+    display: block;
+    text-decoration: none;
+    color: #959595;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.menu a:hover {
+    background-color: #f195b2;
+    color: white;
+}
+
+.hlavicka-vpravo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-tlacitka {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-tlacitka a {
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 10px;
+    margin: 3px;
+}
+
+.tlacitko-primarni {
+    background-color: #3498db;
+    color: white;
+    border-radius: 10px;
+}
+
+.tlacitko-sekundarni {
+    color: rgb(72, 10, 10);
+    border: 1px solid rgb(72, 10, 10);
+    border-radius: 10px;
+}
+
+.tlacitko:hover {
+    box-shadow: 2px 2px 2px grey;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    max-width: 1140px;
+    min-height: 600px;
+    margin: 0 auto;
+}
+
+.banner-text {
+    max-width: 420px;
+}
+
+.banner-text h1 {
+    font-size: 44px;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.banner-foto img {
+    display: block;
+}
+
+.upoutavka {
+    font-size: 18px;
+    color: #a5a5a5;
+    margin: 0 0 35px 0;
+}
+
+.tlacitko-velke {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.minitext {
+    font-size: 13px;
+}
+
+.minitext a {
+    color: #3498db;
+}
+
+
+
+.vlastnosti {
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1140px;
+    justify-content: center;
+    align-content: center;
+}
+
+.vlastnost {
+    border: 2px solid #f0efef;
+    padding: 30px;
+    font-size: 15px;
+    margin: 30px;
+    flex-basis: 44%;
+}
+
+.ikona-kufrik,
+.ikona-slunce,
+.ikona-srdce,
+.ikona-zvuk {
+    width: 50px;
+    float: left;
+    margin-right: 30px;
+    
+}
+
+.overflow {
+    overflow: auto;
+    margin: 0;
+}
+
+.vlastnost p {
+    line-height: 1.5;
+}
+
+.vlastnost h2 {
+    font-size: 15px;
+    margin: 0;
+}
+
+.vlastnost a {
+    font-size: 13px;
+    color: #3498db;
+}
+
+.sekce-cerna {
+    background-color: #252525;
+}
+
+.paticka {
+    display: flex;
+    padding: 50px;
+    justify-content: space-between;
+    align-content: center;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.copyright {
+    color: #959595;
+    font-size: 13px;;
+}
+
+.paticka-menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+
+.paticka-menu a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 10px;
+}
